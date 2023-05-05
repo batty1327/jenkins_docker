@@ -1,4 +1,4 @@
-FROM nginx
+FROM httpd
 WORKDIR /var/www/html/
 RUN rm index.html
 RUN touch index.html
