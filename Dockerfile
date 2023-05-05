@@ -1,6 +1,5 @@
 FROM httpd
 WORKDIR /var/www/html/
-RUN rm index.html
 RUN touch index.html
 RUN echo "this is done using jenkins" > index.html
 EXPOSE 80
